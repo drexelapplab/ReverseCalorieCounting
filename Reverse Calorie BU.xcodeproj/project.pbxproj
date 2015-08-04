@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80EFF041B7155EF00906AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80EFF031B7155EF00906AC1 /* AppDelegate.swift */; };
+		F80EFF061B7155EF00906AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80EFF051B7155EF00906AC1 /* ViewController.swift */; };
+		F80EFF091B7155EF00906AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80EFF071B7155EF00906AC1 /* Main.storyboard */; };
+		F80EFF0B1B7155EF00906AC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80EFF0A1B7155EF00906AC1 /* Images.xcassets */; };
+		F80EFF0E1B7155EF00906AC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80EFF0C1B7155EF00906AC1 /* LaunchScreen.xib */; };
+		F80EFF1A1B7155EF00906AC1 /* Reverse_Calorie_BUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80EFF191B7155EF00906AC1 /* Reverse_Calorie_BUTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80EFF141B7155EF00906AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80EFEF61B7155EF00906AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80EFEFD1B7155EF00906AC1;
+			remoteInfo = "Reverse Calorie BU";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80EFEFE1B7155EF00906AC1 /* Reverse Calorie BU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reverse Calorie BU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80EFF021B7155EF00906AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80EFF031B7155EF00906AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80EFF051B7155EF00906AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F80EFF081B7155EF00906AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80EFF0A1B7155EF00906AC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F80EFF0D1B7155EF00906AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F80EFF131B7155EF00906AC1 /* Reverse Calorie BUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reverse Calorie BUTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80EFF181B7155EF00906AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80EFF191B7155EF00906AC1 /* Reverse_Calorie_BUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse_Calorie_BUTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80EFEFB1B7155EF00906AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80EFF101B7155EF00906AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80EFEF51B7155EF00906AC1 = {
+			isa = PBXGroup;
+			children = (
+				F80EFF001B7155EF00906AC1 /* Reverse Calorie BU */,
+				F80EFF161B7155EF00906AC1 /* Reverse Calorie BUTests */,
+				F80EFEFF1B7155EF00906AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80EFEFF1B7155EF00906AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80EFEFE1B7155EF00906AC1 /* Reverse Calorie BU.app */,
+				F80EFF131B7155EF00906AC1 /* Reverse Calorie BUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80EFF001B7155EF00906AC1 /* Reverse Calorie BU */ = {
+			isa = PBXGroup;
+			children = (
+				F80EFF031B7155EF00906AC1 /* AppDelegate.swift */,
+				F80EFF051B7155EF00906AC1 /* ViewController.swift */,
+				F80EFF071B7155EF00906AC1 /* Main.storyboard */,
+				F80EFF0A1B7155EF00906AC1 /* Images.xcassets */,
+				F80EFF0C1B7155EF00906AC1 /* LaunchScreen.xib */,
+				F80EFF011B7155EF00906AC1 /* Supporting Files */,
+			);
+			path = "Reverse Calorie BU";
+			sourceTree = "<group>";
+		};
+		F80EFF011B7155EF00906AC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80EFF021B7155EF00906AC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F80EFF161B7155EF00906AC1 /* Reverse Calorie BUTests */ = {
+			isa = PBXGroup;
+			children = (
+				F80EFF191B7155EF00906AC1 /* Reverse_Calorie_BUTests.swift */,
+				F80EFF171B7155EF00906AC1 /* Supporting Files */,
+			);
+			path = "Reverse Calorie BUTests";
+			sourceTree = "<group>";
+		};
+		F80EFF171B7155EF00906AC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80EFF181B7155EF00906AC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80EFEFD1B7155EF00906AC1 /* Reverse Calorie BU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80EFF1D1B7155EF00906AC1 /* Build configuration list for PBXNativeTarget "Reverse Calorie BU" */;
+			buildPhases = (
+				F80EFEFA1B7155EF00906AC1 /* Sources */,
+				F80EFEFB1B7155EF00906AC1 /* Frameworks */,
+				F80EFEFC1B7155EF00906AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reverse Calorie BU";
+			productName = "Reverse Calorie BU";
+			productReference = F80EFEFE1B7155EF00906AC1 /* Reverse Calorie BU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80EFF121B7155EF00906AC1 /* Reverse Calorie BUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80EFF201B7155EF00906AC1 /* Build configuration list for PBXNativeTarget "Reverse Calorie BUTests" */;
+			buildPhases = (
+				F80EFF0F1B7155EF00906AC1 /* Sources */,
+				F80EFF101B7155EF00906AC1 /* Frameworks */,
+				F80EFF111B7155EF00906AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80EFF151B7155EF00906AC1 /* PBXTargetDependency */,
+			);
+			name = "Reverse Calorie BUTests";
+			productName = "Reverse Calorie BUTests";
+			productReference = F80EFF131B7155EF00906AC1 /* Reverse Calorie BUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80EFEF61B7155EF00906AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = STAR;
+				TargetAttributes = {
+					F80EFEFD1B7155EF00906AC1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F80EFF121B7155EF00906AC1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F80EFEFD1B7155EF00906AC1;
+					};
+				};
+			};
+			buildConfigurationList = F80EFEF91B7155EF00906AC1 /* Build configuration list for PBXProject "Reverse Calorie BU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80EFEF51B7155EF00906AC1;
+			productRefGroup = F80EFEFF1B7155EF00906AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80EFEFD1B7155EF00906AC1 /* Reverse Calorie BU */,
+				F80EFF121B7155EF00906AC1 /* Reverse Calorie BUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80EFEFC1B7155EF00906AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80EFF091B7155EF00906AC1 /* Main.storyboard in Resources */,
+				F80EFF0E1B7155EF00906AC1 /* LaunchScreen.xib in Resources */,
+				F80EFF0B1B7155EF00906AC1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80EFF111B7155EF00906AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80EFEFA1B7155EF00906AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80EFF061B7155EF00906AC1 /* ViewController.swift in Sources */,
+				F80EFF041B7155EF00906AC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80EFF0F1B7155EF00906AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80EFF1A1B7155EF00906AC1 /* Reverse_Calorie_BUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80EFF151B7155EF00906AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80EFEFD1B7155EF00906AC1 /* Reverse Calorie BU */;
+			targetProxy = F80EFF141B7155EF00906AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F80EFF071B7155EF00906AC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80EFF081B7155EF00906AC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F80EFF0C1B7155EF00906AC1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80EFF0D1B7155EF00906AC1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80EFF1B1B7155EF00906AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80EFF1C1B7155EF00906AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80EFF1E1B7155EF00906AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reverse Calorie BU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F80EFF1F1B7155EF00906AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reverse Calorie BU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F80EFF211B7155EF00906AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Reverse Calorie BUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reverse Calorie BU.app/Reverse Calorie BU";
+			};
+			name = Debug;
+		};
+		F80EFF221B7155EF00906AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Reverse Calorie BUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reverse Calorie BU.app/Reverse Calorie BU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80EFEF91B7155EF00906AC1 /* Build configuration list for PBXProject "Reverse Calorie BU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80EFF1B1B7155EF00906AC1 /* Debug */,
+				F80EFF1C1B7155EF00906AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80EFF1D1B7155EF00906AC1 /* Build configuration list for PBXNativeTarget "Reverse Calorie BU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80EFF1E1B7155EF00906AC1 /* Debug */,
+				F80EFF1F1B7155EF00906AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F80EFF201B7155EF00906AC1 /* Build configuration list for PBXNativeTarget "Reverse Calorie BUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80EFF211B7155EF00906AC1 /* Debug */,
+				F80EFF221B7155EF00906AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80EFEF61B7155EF00906AC1 /* Project object */;
+}
